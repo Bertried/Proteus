@@ -1,0 +1,1671 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"118 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _INDF `Vuc  1 e@0 ]
+"122 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR0 `Vuc  1 e@1 ]
+"126 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PCL `Vuc  1 e@2 ]
+"130 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _STATUS `Vuc  1 e@3 ]
+"132 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CARRY `Vb  1 e@24 ]
+"133 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _DC `Vb  1 e@25 ]
+"134 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ZERO `Vb  1 e@26 ]
+"135 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nPD `Vb  1 e@27 ]
+"136 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nTO `Vb  1 e@28 ]
+"137 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IRP `Vb  1 e@31 ]
+"138 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RP0 `Vb  1 e@29 ]
+"139 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RP1 `Vb  1 e@30 ]
+[s S2 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S2 . C DC Z nPD nTO RP IRP ]
+[s S3 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3 . . RP0 RP1 ]
+[u S1 `S2 1 `S3 1 ]
+[n S1 . . . ]
+"156 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _STATUSbits `VS1  1 e@3 ]
+"160 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _FSR `Vuc  1 e@4 ]
+"164 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTA `Vuc  1 e@5 ]
+"166 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA0 `Vb  1 e@40 ]
+"167 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA1 `Vb  1 e@41 ]
+"168 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA2 `Vb  1 e@42 ]
+"169 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA3 `Vb  1 e@43 ]
+"170 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA4 `Vb  1 e@44 ]
+"171 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA5 `Vb  1 e@45 ]
+"172 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA6 `Vb  1 e@46 ]
+"173 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RA7 `Vb  1 e@47 ]
+[s S5 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S5 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+[u S4 `S5 1 ]
+[n S4 . . ]
+"186 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTAbits `VS4  1 e@5 ]
+"190 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTB `Vuc  1 e@6 ]
+"192 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB0 `Vb  1 e@48 ]
+"193 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB1 `Vb  1 e@49 ]
+"194 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB2 `Vb  1 e@50 ]
+"195 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB3 `Vb  1 e@51 ]
+"196 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB4 `Vb  1 e@52 ]
+"197 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB5 `Vb  1 e@53 ]
+"198 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB6 `Vb  1 e@54 ]
+"199 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RB7 `Vb  1 e@55 ]
+[s S7 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S7 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+[u S6 `S7 1 ]
+[n S6 . . ]
+"212 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTBbits `VS6  1 e@6 ]
+"216 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTC `Vuc  1 e@7 ]
+"218 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC0 `Vb  1 e@56 ]
+"219 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC1 `Vb  1 e@57 ]
+"220 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC2 `Vb  1 e@58 ]
+"221 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC3 `Vb  1 e@59 ]
+"222 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC4 `Vb  1 e@60 ]
+"223 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC5 `Vb  1 e@61 ]
+"224 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC6 `Vb  1 e@62 ]
+"225 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC7 `Vb  1 e@63 ]
+[s S9 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S9 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+[u S8 `S9 1 ]
+[n S8 . . ]
+"238 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTCbits `VS8  1 e@7 ]
+"242 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTD `Vuc  1 e@8 ]
+"244 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD0 `Vb  1 e@64 ]
+"245 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD1 `Vb  1 e@65 ]
+"246 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD2 `Vb  1 e@66 ]
+"247 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD3 `Vb  1 e@67 ]
+"248 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD4 `Vb  1 e@68 ]
+"249 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD5 `Vb  1 e@69 ]
+"250 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD6 `Vb  1 e@70 ]
+"251 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD7 `Vb  1 e@71 ]
+[s S11 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S11 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+[u S10 `S11 1 ]
+[n S10 . . ]
+"264 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTDbits `VS10  1 e@8 ]
+"268 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTE `Vuc  1 e@9 ]
+"270 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RE0 `Vb  1 e@72 ]
+"271 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RE1 `Vb  1 e@73 ]
+"272 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RE2 `Vb  1 e@74 ]
+"273 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RE3 `Vb  1 e@75 ]
+[s S13 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S13 . RE0 RE1 RE2 RE3 ]
+[u S12 `S13 1 ]
+[n S12 . . ]
+"282 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PORTEbits `VS12  1 e@9 ]
+"286 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PCLATH `Vuc  1 e@10 ]
+[s S15 :5 `uc 1 ]
+[n S15 . . ]
+[u S14 `S15 1 ]
+[n S14 . . ]
+"293 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PCLATHbits `VS14  1 e@10 ]
+"297 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _INTCON `Vuc  1 e@11 ]
+"299 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RBIF `Vb  1 e@88 ]
+"300 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _INTF `Vb  1 e@89 ]
+"301 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T0IF `Vb  1 e@90 ]
+"302 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RBIE `Vb  1 e@91 ]
+"303 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _INTE `Vb  1 e@92 ]
+"304 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T0IE `Vb  1 e@93 ]
+"305 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PEIE `Vb  1 e@94 ]
+"306 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _GIE `Vb  1 e@95 ]
+"307 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR0IF `Vb  1 e@90 ]
+"308 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR0IE `Vb  1 e@93 ]
+[s S17 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S17 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+[s S18 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S18 . . TMR0IF . TMR0IE ]
+[u S16 `S17 1 `S18 1 ]
+[n S16 . . . ]
+"327 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _INTCONbits `VS16  1 e@11 ]
+"331 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIR1 `Vuc  1 e@12 ]
+"333 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1IF `Vb  1 e@96 ]
+"334 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR2IF `Vb  1 e@97 ]
+"335 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1IF `Vb  1 e@98 ]
+"336 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPIF `Vb  1 e@99 ]
+"337 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TXIF `Vb  1 e@100 ]
+"338 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCIF `Vb  1 e@101 ]
+"339 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADIF `Vb  1 e@102 ]
+"340 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSPIF `Vb  1 e@103 ]
+[s S20 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S20 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+[s S21 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S21 . . . . . . . PSPIF ]
+[u S19 `S20 1 `S21 1 ]
+[n S19 . . . ]
+"361 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIR1bits `VS19  1 e@12 ]
+"365 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIR2 `Vuc  1 e@13 ]
+"367 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2IF `Vb  1 e@104 ]
+"368 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ULPWUIF `Vb  1 e@106 ]
+"369 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BCLIF `Vb  1 e@107 ]
+"370 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEIF `Vb  1 e@108 ]
+"371 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1IF `Vb  1 e@109 ]
+"372 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2IF `Vb  1 e@110 ]
+"373 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OSFIF `Vb  1 e@111 ]
+[s S23 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . CCP2IF . ULPWUIF BCLIF EEIF C1IF C2IF OSFIF ]
+[u S22 `S23 1 ]
+[n S22 . . ]
+"386 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIR2bits `VS22  1 e@13 ]
+"391 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1L `Vuc  1 e@14 ]
+"395 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1H `Vuc  1 e@15 ]
+"399 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1 `Vui  1 e@14 ]
+"402 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1CON `Vuc  1 e@16 ]
+"404 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1ON `Vb  1 e@128 ]
+"405 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1CS `Vb  1 e@129 ]
+"406 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nT1SYNC `Vb  1 e@130 ]
+"407 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1OSCEN `Vb  1 e@131 ]
+"408 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1GE `Vb  1 e@134 ]
+"409 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1GINV `Vb  1 e@135 ]
+"410 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1INSYNC `Vb  1 e@130 ]
+"411 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1CKPS0 `Vb  1 e@132 ]
+"412 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1CKPS1 `Vb  1 e@133 ]
+"413 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1GIV `Vb  1 e@135 ]
+"414 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1SYNC `Vb  1 e@130 ]
+[s S25 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S25 . TMR1ON TMR1CS nT1SYNC T1OSCEN T1CKPS TMR1GE T1GINV ]
+[s S26 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S26 . . T1INSYNC . T1CKPS0 T1CKPS1 . T1GIV ]
+[s S27 :2 `uc 1 :1 `uc 1 ]
+[n S27 . . T1SYNC ]
+[u S24 `S25 1 `S26 1 `S27 1 ]
+[n S24 . . . . ]
+"439 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1CONbits `VS24  1 e@16 ]
+"443 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR2 `Vuc  1 e@17 ]
+"447 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T2CON `Vuc  1 e@18 ]
+"449 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR2ON `Vb  1 e@146 ]
+"450 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T2CKPS0 `Vb  1 e@144 ]
+"451 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T2CKPS1 `Vb  1 e@145 ]
+"452 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TOUTPS0 `Vb  1 e@147 ]
+"453 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TOUTPS1 `Vb  1 e@148 ]
+"454 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TOUTPS2 `Vb  1 e@149 ]
+"455 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TOUTPS3 `Vb  1 e@150 ]
+[s S29 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S29 . T2CKPS TMR2ON TOUTPS ]
+[s S30 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S30 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+[u S28 `S29 1 `S30 1 ]
+[n S28 . . . ]
+"472 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T2CONbits `VS28  1 e@18 ]
+"476 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPBUF `Vuc  1 e@19 ]
+"480 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPCON `Vuc  1 e@20 ]
+"482 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CKP `Vb  1 e@164 ]
+"483 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPEN `Vb  1 e@165 ]
+"484 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPOV `Vb  1 e@166 ]
+"485 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WCOL `Vb  1 e@167 ]
+"486 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPM0 `Vb  1 e@160 ]
+"487 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPM1 `Vb  1 e@161 ]
+"488 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPM2 `Vb  1 e@162 ]
+"489 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPM3 `Vb  1 e@163 ]
+[s S32 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S32 . SSPM CKP SSPEN SSPOV WCOL ]
+[s S33 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S33 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+[u S31 `S32 1 `S33 1 ]
+[n S31 . . . ]
+"505 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPCONbits `VS31  1 e@20 ]
+"510 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCPR1L `Vuc  1 e@21 ]
+"514 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCPR1H `Vuc  1 e@22 ]
+"518 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCPR1 `Vui  1 e@21 ]
+"521 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1CON `Vuc  1 e@23 ]
+"523 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1M0 `Vb  1 e@184 ]
+"524 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1M1 `Vb  1 e@185 ]
+"525 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1M2 `Vb  1 e@186 ]
+"526 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1M3 `Vb  1 e@187 ]
+"527 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _DC1B0 `Vb  1 e@188 ]
+"528 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _DC1B1 `Vb  1 e@189 ]
+"529 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _P1M0 `Vb  1 e@190 ]
+"530 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _P1M1 `Vb  1 e@191 ]
+"531 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1Y `Vb  1 e@188 ]
+"532 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1X `Vb  1 e@189 ]
+[s S35 :4 `uc 1 :2 `uc 1 :2 `uc 1 ]
+[n S35 . CCP1M DC1B P1M ]
+[s S36 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S36 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 DC1B0 DC1B1 P1M0 P1M1 ]
+[s S37 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S37 . . CCP1Y CCP1X ]
+[u S34 `S35 1 `S36 1 `S37 1 ]
+[n S34 . . . . ]
+"555 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1CONbits `VS34  1 e@23 ]
+"559 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCSTA `Vuc  1 e@24 ]
+"561 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RX9D `Vb  1 e@192 ]
+"562 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OERR `Vb  1 e@193 ]
+"563 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _FERR `Vb  1 e@194 ]
+"564 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADDEN `Vb  1 e@195 ]
+"565 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CREN `Vb  1 e@196 ]
+"566 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SREN `Vb  1 e@197 ]
+"567 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RX9 `Vb  1 e@198 ]
+"568 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SPEN `Vb  1 e@199 ]
+"569 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCD8 `Vb  1 e@192 ]
+"570 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC9 `Vb  1 e@198 ]
+"571 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nRC8 `Vb  1 e@198 ]
+"572 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RC8_9 `Vb  1 e@198 ]
+[s S39 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S39 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+[s S40 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S40 . RCD8 . RC9 ]
+[s S41 :6 `uc 1 :1 `uc 1 ]
+[n S41 . . nRC8 ]
+[s S42 :6 `uc 1 :1 `uc 1 ]
+[n S42 . . RC8_9 ]
+[u S38 `S39 1 `S40 1 `S41 1 `S42 1 ]
+[n S38 . . . . . ]
+"598 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCSTAbits `VS38  1 e@24 ]
+"602 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TXREG `Vuc  1 e@25 ]
+"606 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCREG `Vuc  1 e@26 ]
+"611 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCPR2L `Vuc  1 e@27 ]
+"615 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCPR2H `Vuc  1 e@28 ]
+"619 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCPR2 `Vui  1 e@27 ]
+"622 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2CON `Vuc  1 e@29 ]
+"624 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _DC2B0 `Vb  1 e@236 ]
+"625 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _DC2B1 `Vb  1 e@237 ]
+"626 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2M0 `Vb  1 e@232 ]
+"627 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2M1 `Vb  1 e@233 ]
+"628 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2M2 `Vb  1 e@234 ]
+"629 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2M3 `Vb  1 e@235 ]
+"630 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2Y `Vb  1 e@236 ]
+"631 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2X `Vb  1 e@237 ]
+[s S44 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S44 . CCP2M DC2B0 DC2B1 ]
+[s S45 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S45 . CCP2M0 CCP2M1 CCP2M2 CCP2M3 CCP2Y CCP2X ]
+[u S43 `S44 1 `S45 1 ]
+[n S43 . . . ]
+"647 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2CONbits `VS43  1 e@29 ]
+"651 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADRESH `Vuc  1 e@30 ]
+"655 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADCON0 `Vuc  1 e@31 ]
+"657 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADON `Vb  1 e@248 ]
+"658 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _GO_nDONE `Vb  1 e@249 ]
+"659 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _GO `Vb  1 e@249 ]
+"660 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CHS0 `Vb  1 e@250 ]
+"661 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CHS1 `Vb  1 e@251 ]
+"662 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CHS2 `Vb  1 e@252 ]
+"663 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CHS3 `Vb  1 e@253 ]
+"664 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADCS0 `Vb  1 e@254 ]
+"665 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADCS1 `Vb  1 e@255 ]
+"666 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nDONE `Vb  1 e@249 ]
+"667 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _GO_DONE `Vb  1 e@249 ]
+[s S47 :1 `uc 1 :1 `uc 1 :4 `uc 1 :2 `uc 1 ]
+[n S47 . ADON GO_nDONE CHS ADCS ]
+[s S48 :1 `uc 1 :1 `uc 1 :4 `uc 1 :2 `uc 1 ]
+[n S48 . . . . . ]
+[s S49 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . . GO CHS0 CHS1 CHS2 CHS3 ADCS0 ADCS1 ]
+[s S50 :1 `uc 1 :1 `uc 1 ]
+[n S50 . . nDONE ]
+[s S51 :1 `uc 1 :1 `uc 1 ]
+[n S51 . . GO_DONE ]
+[u S46 `S47 1 `S48 1 `S49 1 `S50 1 `S51 1 ]
+[n S46 . . . . . . ]
+"700 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADCON0bits `VS46  1 e@31 ]
+"709 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OPTION_REG `Vuc  1 e@129 ]
+"711 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSA `Vb  1 e@1035 ]
+"712 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T0SE `Vb  1 e@1036 ]
+"713 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T0CS `Vb  1 e@1037 ]
+"714 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _INTEDG `Vb  1 e@1038 ]
+"715 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nRBPU `Vb  1 e@1039 ]
+"716 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PS0 `Vb  1 e@1032 ]
+"717 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PS1 `Vb  1 e@1033 ]
+"718 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PS2 `Vb  1 e@1034 ]
+[s S53 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S53 . PS PSA T0SE T0CS INTEDG nRBPU ]
+[s S54 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S54 . PS0 PS1 PS2 ]
+[u S52 `S53 1 `S54 1 ]
+[n S52 . . . ]
+"734 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OPTION_REGbits `VS52  1 e@129 ]
+"738 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA `Vuc  1 e@133 ]
+"740 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA0 `Vb  1 e@1064 ]
+"741 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA1 `Vb  1 e@1065 ]
+"742 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA2 `Vb  1 e@1066 ]
+"743 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA3 `Vb  1 e@1067 ]
+"744 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA4 `Vb  1 e@1068 ]
+"745 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA5 `Vb  1 e@1069 ]
+"746 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA6 `Vb  1 e@1070 ]
+"747 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISA7 `Vb  1 e@1071 ]
+[s S56 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S56 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+[u S55 `S56 1 ]
+[n S55 . . ]
+"760 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISAbits `VS55  1 e@133 ]
+"764 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB `Vuc  1 e@134 ]
+"766 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB0 `Vb  1 e@1072 ]
+"767 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB1 `Vb  1 e@1073 ]
+"768 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB2 `Vb  1 e@1074 ]
+"769 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB3 `Vb  1 e@1075 ]
+"770 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB4 `Vb  1 e@1076 ]
+"771 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB5 `Vb  1 e@1077 ]
+"772 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB6 `Vb  1 e@1078 ]
+"773 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISB7 `Vb  1 e@1079 ]
+[s S58 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S58 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+[u S57 `S58 1 ]
+[n S57 . . ]
+"786 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISBbits `VS57  1 e@134 ]
+"790 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC `Vuc  1 e@135 ]
+"792 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC0 `Vb  1 e@1080 ]
+"793 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC1 `Vb  1 e@1081 ]
+"794 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC2 `Vb  1 e@1082 ]
+"795 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC3 `Vb  1 e@1083 ]
+"796 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC4 `Vb  1 e@1084 ]
+"797 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC5 `Vb  1 e@1085 ]
+"798 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC6 `Vb  1 e@1086 ]
+"799 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISC7 `Vb  1 e@1087 ]
+[s S60 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S60 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+[u S59 `S60 1 ]
+[n S59 . . ]
+"812 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISCbits `VS59  1 e@135 ]
+"816 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD `Vuc  1 e@136 ]
+"818 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD0 `Vb  1 e@1088 ]
+"819 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD1 `Vb  1 e@1089 ]
+"820 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD2 `Vb  1 e@1090 ]
+"821 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD3 `Vb  1 e@1091 ]
+"822 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD4 `Vb  1 e@1092 ]
+"823 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD5 `Vb  1 e@1093 ]
+"824 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD6 `Vb  1 e@1094 ]
+"825 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISD7 `Vb  1 e@1095 ]
+[s S62 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S62 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+[u S61 `S62 1 ]
+[n S61 . . ]
+"838 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISDbits `VS61  1 e@136 ]
+"842 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISE `Vuc  1 e@137 ]
+"844 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISE0 `Vb  1 e@1096 ]
+"845 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISE1 `Vb  1 e@1097 ]
+"846 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISE2 `Vb  1 e@1098 ]
+"847 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISE3 `Vb  1 e@1099 ]
+[s S64 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S64 . TRISE0 TRISE1 TRISE2 TRISE3 ]
+[u S63 `S64 1 ]
+[n S63 . . ]
+"856 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRISEbits `VS63  1 e@137 ]
+"860 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIE1 `Vuc  1 e@140 ]
+"862 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR1IE `Vb  1 e@1120 ]
+"863 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TMR2IE `Vb  1 e@1121 ]
+"864 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP1IE `Vb  1 e@1122 ]
+"865 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPIE `Vb  1 e@1123 ]
+"866 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TXIE `Vb  1 e@1124 ]
+"867 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCIE `Vb  1 e@1125 ]
+"868 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADIE `Vb  1 e@1126 ]
+[s S66 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S66 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+[u S65 `S66 1 ]
+[n S65 . . ]
+"880 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIE1bits `VS65  1 e@140 ]
+"884 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIE2 `Vuc  1 e@141 ]
+"886 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CCP2IE `Vb  1 e@1128 ]
+"887 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ULPWUIE `Vb  1 e@1130 ]
+"888 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BCLIE `Vb  1 e@1131 ]
+"889 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEIE `Vb  1 e@1132 ]
+"890 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1IE `Vb  1 e@1133 ]
+"891 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2IE `Vb  1 e@1134 ]
+"892 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OSFIE `Vb  1 e@1135 ]
+[s S68 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S68 . CCP2IE . ULPWUIE BCLIE EEIE C1IE C2IE OSFIE ]
+[u S67 `S68 1 ]
+[n S67 . . ]
+"905 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PIE2bits `VS67  1 e@141 ]
+"909 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PCON `Vuc  1 e@142 ]
+"911 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nBOR `Vb  1 e@1136 ]
+"912 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nPOR `Vb  1 e@1137 ]
+"913 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SBOREN `Vb  1 e@1140 ]
+"914 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ULPWUE `Vb  1 e@1141 ]
+"915 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nBO `Vb  1 e@1136 ]
+[s S70 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S70 . nBOR nPOR . SBOREN ULPWUE ]
+[s S71 :1 `uc 1 ]
+[n S71 . nBO ]
+[u S69 `S70 1 `S71 1 ]
+[n S69 . . . ]
+"928 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PCONbits `VS69  1 e@142 ]
+"932 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OSCCON `Vuc  1 e@143 ]
+"934 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SCS `Vb  1 e@1144 ]
+"935 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _LTS `Vb  1 e@1145 ]
+"936 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _HTS `Vb  1 e@1146 ]
+"937 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OSTS `Vb  1 e@1147 ]
+"938 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IRCF0 `Vb  1 e@1148 ]
+"939 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IRCF1 `Vb  1 e@1149 ]
+"940 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IRCF2 `Vb  1 e@1150 ]
+[s S73 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 ]
+[n S73 . SCS LTS HTS OSTS IRFC ]
+[s S74 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S74 . . IRCF0 IRCF1 IRCF2 ]
+[u S72 `S73 1 `S74 1 ]
+[n S72 . . . ]
+"956 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OSCCONbits `VS72  1 e@143 ]
+"960 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OSCTUNE `Vuc  1 e@144 ]
+"962 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TUN0 `Vb  1 e@1152 ]
+"963 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TUN1 `Vb  1 e@1153 ]
+"964 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TUN2 `Vb  1 e@1154 ]
+"965 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TUN3 `Vb  1 e@1155 ]
+"966 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TUN4 `Vb  1 e@1156 ]
+[s S76 :5 `uc 1 ]
+[n S76 . TUN ]
+[s S77 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S77 . TUN0 TUN1 TUN2 TUN3 TUN4 ]
+[u S75 `S76 1 `S77 1 ]
+[n S75 . . . ]
+"979 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _OSCTUNEbits `VS75  1 e@144 ]
+"983 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPCON2 `Vuc  1 e@145 ]
+"985 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SEN `Vb  1 e@1160 ]
+"986 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RSEN `Vb  1 e@1161 ]
+"987 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PEN `Vb  1 e@1162 ]
+"988 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCEN `Vb  1 e@1163 ]
+"989 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ACKEN `Vb  1 e@1164 ]
+"990 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ACKDT `Vb  1 e@1165 ]
+"991 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ACKSTAT `Vb  1 e@1166 ]
+"992 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _GCEN `Vb  1 e@1167 ]
+[s S79 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S79 . SEN RSEN PEN RCEN ACKEN ACKDT ACKSTAT GCEN ]
+[u S78 `S79 1 ]
+[n S78 . . ]
+"1005 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPCON2bits `VS78  1 e@145 ]
+"1009 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PR2 `Vuc  1 e@146 ]
+"1013 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPADD `Vuc  1 e@147 ]
+"1017 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPMSK `Vuc  1 e@147 ]
+"1018 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK `Vuc  1 e@147 ]
+"1020 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK0 `Vb  1 e@1176 ]
+"1021 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK1 `Vb  1 e@1177 ]
+"1022 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK2 `Vb  1 e@1178 ]
+"1023 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK3 `Vb  1 e@1179 ]
+"1024 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK4 `Vb  1 e@1180 ]
+"1025 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK5 `Vb  1 e@1181 ]
+"1026 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK6 `Vb  1 e@1182 ]
+"1027 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MSK7 `Vb  1 e@1183 ]
+[s S81 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S81 . MSK0 MSK1 MSK2 MSK3 MSK4 MSK5 MSK6 MSK7 ]
+[u S80 `S81 1 ]
+[n S80 . . ]
+"1040 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPMSKbits `VS80  1 e@147 ]
+"1044 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPSTAT `Vuc  1 e@148 ]
+"1046 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BF `Vb  1 e@1184 ]
+"1047 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _UA `Vb  1 e@1185 ]
+"1048 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _R_nW `Vb  1 e@1186 ]
+"1049 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _S `Vb  1 e@1187 ]
+"1050 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _P `Vb  1 e@1188 ]
+"1051 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _D_nA `Vb  1 e@1189 ]
+"1052 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CKE `Vb  1 e@1190 ]
+"1053 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SMP `Vb  1 e@1191 ]
+"1054 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _R `Vb  1 e@1186 ]
+"1055 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _D `Vb  1 e@1189 ]
+"1056 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _I2C_READ `Vb  1 e@1186 ]
+"1057 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _I2C_START `Vb  1 e@1187 ]
+"1058 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _I2C_STOP `Vb  1 e@1188 ]
+"1059 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _I2C_DATA `Vb  1 e@1189 ]
+"1060 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nW `Vb  1 e@1186 ]
+"1061 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nA `Vb  1 e@1189 ]
+"1062 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nWRITE `Vb  1 e@1186 ]
+"1063 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nADDRESS `Vb  1 e@1189 ]
+"1064 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _R_W `Vb  1 e@1186 ]
+"1065 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _D_A `Vb  1 e@1189 ]
+"1066 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _READ_WRITE `Vb  1 e@1186 ]
+"1067 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _DATA_ADDRESS `Vb  1 e@1189 ]
+[s S83 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S83 . BF UA R_nW S P D_nA CKE SMP ]
+[s S84 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S84 . . . . . . . . . ]
+[s S85 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S85 . . R . D ]
+[s S86 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S86 . . I2C_READ I2C_START I2C_STOP I2C_DATA ]
+[s S87 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S87 . . nW . nA ]
+[s S88 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S88 . . nWRITE . nADDRESS ]
+[s S89 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S89 . . R_W . D_A ]
+[s S90 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S90 . . READ_WRITE . DATA_ADDRESS ]
+[u S82 `S83 1 `S84 1 `S85 1 `S86 1 `S87 1 `S88 1 `S89 1 `S90 1 ]
+[n S82 . . . . . . . . . ]
+"1127 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SSPSTATbits `VS82  1 e@148 ]
+"1131 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB `Vuc  1 e@149 ]
+"1133 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB0 `Vb  1 e@1192 ]
+"1134 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB1 `Vb  1 e@1193 ]
+"1135 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB2 `Vb  1 e@1194 ]
+"1136 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB3 `Vb  1 e@1195 ]
+"1137 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB4 `Vb  1 e@1196 ]
+"1138 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB5 `Vb  1 e@1197 ]
+"1139 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB6 `Vb  1 e@1198 ]
+"1140 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUB7 `Vb  1 e@1199 ]
+[s S92 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S92 . WPUB0 WPUB1 WPUB2 WPUB3 WPUB4 WPUB5 WPUB6 WPUB7 ]
+[u S91 `S92 1 ]
+[n S91 . . ]
+"1153 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WPUBbits `VS91  1 e@149 ]
+"1157 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB `Vuc  1 e@150 ]
+"1159 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB0 `Vb  1 e@1200 ]
+"1160 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB1 `Vb  1 e@1201 ]
+"1161 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB2 `Vb  1 e@1202 ]
+"1162 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB3 `Vb  1 e@1203 ]
+"1163 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB4 `Vb  1 e@1204 ]
+"1164 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB5 `Vb  1 e@1205 ]
+"1165 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB6 `Vb  1 e@1206 ]
+"1166 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCB7 `Vb  1 e@1207 ]
+[s S94 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S94 . IOCB0 IOCB1 IOCB2 IOCB3 IOCB4 IOCB5 IOCB6 IOCB7 ]
+[u S93 `S94 1 ]
+[n S93 . . ]
+"1179 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _IOCBbits `VS93  1 e@150 ]
+"1183 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VRCON `Vuc  1 e@151 ]
+"1185 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VRSS `Vb  1 e@1212 ]
+"1186 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VRR `Vb  1 e@1213 ]
+"1187 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VROE `Vb  1 e@1214 ]
+"1188 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VREN `Vb  1 e@1215 ]
+"1189 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VR0 `Vb  1 e@1208 ]
+"1190 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VR1 `Vb  1 e@1209 ]
+"1191 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VR2 `Vb  1 e@1210 ]
+"1192 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VR3 `Vb  1 e@1211 ]
+[s S96 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S96 . VR VRSS VRR VROE VREN ]
+[s S97 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S97 . VR0 VR1 VR2 VR3 ]
+[u S95 `S96 1 `S97 1 ]
+[n S95 . . . ]
+"1208 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VRCONbits `VS95  1 e@151 ]
+"1212 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TXSTA `Vuc  1 e@152 ]
+"1214 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TX9D `Vb  1 e@1216 ]
+"1215 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TRMT `Vb  1 e@1217 ]
+"1216 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRGH `Vb  1 e@1218 ]
+"1217 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SENDB `Vb  1 e@1219 ]
+"1218 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SYNC `Vb  1 e@1220 ]
+"1219 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TXEN `Vb  1 e@1221 ]
+"1220 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TX9 `Vb  1 e@1222 ]
+"1221 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CSRC `Vb  1 e@1223 ]
+"1222 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TXD8 `Vb  1 e@1216 ]
+"1223 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _nTX8 `Vb  1 e@1222 ]
+"1224 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TX8_9 `Vb  1 e@1222 ]
+[s S99 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S99 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+[s S100 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S100 . TXD8 . nTX8 ]
+[s S101 :6 `uc 1 :1 `uc 1 ]
+[n S101 . . TX8_9 ]
+[u S98 `S99 1 `S100 1 `S101 1 ]
+[n S98 . . . . ]
+"1246 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _TXSTAbits `VS98  1 e@152 ]
+"1250 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SPBRG `Vuc  1 e@153 ]
+"1252 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG0 `Vb  1 e@1224 ]
+"1253 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG1 `Vb  1 e@1225 ]
+"1254 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG2 `Vb  1 e@1226 ]
+"1255 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG3 `Vb  1 e@1227 ]
+"1256 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG4 `Vb  1 e@1228 ]
+"1257 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG5 `Vb  1 e@1229 ]
+"1258 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG6 `Vb  1 e@1230 ]
+"1259 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG7 `Vb  1 e@1231 ]
+[s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S103 . BRG0 BRG1 BRG2 BRG3 BRG4 BRG5 BRG6 BRG7 ]
+[u S102 `S103 1 ]
+[n S102 . . ]
+"1272 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SPBRGbits `VS102  1 e@153 ]
+"1276 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SPBRGH `Vuc  1 e@154 ]
+"1278 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG8 `Vb  1 e@1232 ]
+"1279 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG9 `Vb  1 e@1233 ]
+"1280 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG10 `Vb  1 e@1234 ]
+"1281 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG11 `Vb  1 e@1235 ]
+"1282 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG12 `Vb  1 e@1236 ]
+"1283 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG13 `Vb  1 e@1237 ]
+"1284 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG14 `Vb  1 e@1238 ]
+"1285 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG15 `Vb  1 e@1239 ]
+[s S105 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S105 . BRG8 BRG9 BRG10 BRG11 BRG12 BRG13 BRG14 BRG15 ]
+[u S104 `S105 1 ]
+[n S104 . . ]
+"1298 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SPBRGHbits `VS104  1 e@154 ]
+"1302 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PWM1CON `Vuc  1 e@155 ]
+"1304 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PRSEN `Vb  1 e@1247 ]
+"1305 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PDC0 `Vb  1 e@1240 ]
+"1306 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PDC1 `Vb  1 e@1241 ]
+"1307 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PDC2 `Vb  1 e@1242 ]
+"1308 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PDC3 `Vb  1 e@1243 ]
+"1309 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PDC4 `Vb  1 e@1244 ]
+"1310 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PDC5 `Vb  1 e@1245 ]
+"1311 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PDC6 `Vb  1 e@1246 ]
+[s S107 :7 `uc 1 :1 `uc 1 ]
+[n S107 . PDC PRSEN ]
+[s S108 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S108 . PDC0 PDC1 PDC2 PDC3 PDC4 PDC5 PDC6 ]
+[u S106 `S107 1 `S108 1 ]
+[n S106 . . . ]
+"1327 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PWM1CONbits `VS106  1 e@155 ]
+"1331 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ECCPAS `Vuc  1 e@156 ]
+"1333 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ECCPASE `Vb  1 e@1255 ]
+"1334 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSSBD0 `Vb  1 e@1248 ]
+"1335 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSSBD1 `Vb  1 e@1249 ]
+"1336 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSSAC0 `Vb  1 e@1250 ]
+"1337 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSSAC1 `Vb  1 e@1251 ]
+"1338 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ECCPAS0 `Vb  1 e@1252 ]
+"1339 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ECCPAS1 `Vb  1 e@1253 ]
+"1340 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ECCPAS2 `Vb  1 e@1254 ]
+[s S110 :2 `uc 1 :2 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S110 . PSSBD PSSAC ECCPAS ECCPASE ]
+[s S111 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S111 . PSSBD0 PSSBD1 PSSAC0 PSSAC1 ECCPAS0 ECCPAS1 ECCPAS2 ]
+[u S109 `S110 1 `S111 1 ]
+[n S109 . . . ]
+"1358 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ECCPASbits `VS109  1 e@156 ]
+"1362 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSTRCON `Vuc  1 e@157 ]
+"1364 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _STRA `Vb  1 e@1256 ]
+"1365 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _STRB `Vb  1 e@1257 ]
+"1366 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _STRC `Vb  1 e@1258 ]
+"1367 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _STRD `Vb  1 e@1259 ]
+"1368 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _STRSYNC `Vb  1 e@1260 ]
+[s S113 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S113 . STRA STRB STRC STRD STRSYNC ]
+[u S112 `S113 1 ]
+[n S112 . . ]
+"1378 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PSTRCONbits `VS112  1 e@157 ]
+"1382 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADRESL `Vuc  1 e@158 ]
+"1386 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADCON1 `Vuc  1 e@159 ]
+"1388 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VCFG0 `Vb  1 e@1276 ]
+"1389 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _VCFG1 `Vb  1 e@1277 ]
+"1390 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADFM `Vb  1 e@1279 ]
+[s S115 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S115 . . VCFG0 VCFG1 . ADFM ]
+[u S114 `S115 1 ]
+[n S114 . . ]
+"1400 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ADCON1bits `VS114  1 e@159 ]
+"1409 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WDTCON `Vuc  1 e@261 ]
+"1411 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SWDTEN `Vb  1 e@2088 ]
+"1412 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WDTPS0 `Vb  1 e@2089 ]
+"1413 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WDTPS1 `Vb  1 e@2090 ]
+"1414 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WDTPS2 `Vb  1 e@2091 ]
+"1415 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WDTPS3 `Vb  1 e@2092 ]
+[s S117 :1 `uc 1 :4 `uc 1 ]
+[n S117 . SWDTEN WDTPS ]
+[s S118 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S118 . . WDTPS0 WDTPS1 WDTPS2 WDTPS3 ]
+[u S116 `S117 1 `S118 1 ]
+[n S116 . . . ]
+"1429 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WDTCONbits `VS116  1 e@261 ]
+"1433 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CM1CON0 `Vuc  1 e@263 ]
+"1435 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1R `Vb  1 e@2106 ]
+"1436 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1POL `Vb  1 e@2108 ]
+"1437 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1OE `Vb  1 e@2109 ]
+"1438 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1OUT `Vb  1 e@2110 ]
+"1439 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1ON `Vb  1 e@2111 ]
+"1440 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1CH0 `Vb  1 e@2104 ]
+"1441 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1CH1 `Vb  1 e@2105 ]
+[s S120 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S120 . C1CH C1R . C1POL C1OE C1OUT C1ON ]
+[s S121 :1 `uc 1 :1 `uc 1 ]
+[n S121 . C1CH0 C1CH1 ]
+[u S119 `S120 1 `S121 1 ]
+[n S119 . . . ]
+"1457 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CM1CON0bits `VS119  1 e@263 ]
+"1461 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CM2CON0 `Vuc  1 e@264 ]
+"1463 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2R `Vb  1 e@2114 ]
+"1464 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2POL `Vb  1 e@2116 ]
+"1465 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2OE `Vb  1 e@2117 ]
+"1466 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2OUT `Vb  1 e@2118 ]
+"1467 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2ON `Vb  1 e@2119 ]
+"1468 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2CH0 `Vb  1 e@2112 ]
+"1469 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2CH1 `Vb  1 e@2113 ]
+[s S123 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S123 . C2CH C2R . C2POL C2OE C2OUT C2ON ]
+[s S124 :1 `uc 1 :1 `uc 1 ]
+[n S124 . C2CH0 C2CH1 ]
+[u S122 `S123 1 `S124 1 ]
+[n S122 . . . ]
+"1485 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CM2CON0bits `VS122  1 e@264 ]
+"1489 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CM2CON1 `Vuc  1 e@265 ]
+"1491 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2SYNC `Vb  1 e@2120 ]
+"1492 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _T1GSS `Vb  1 e@2121 ]
+"1493 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2RSEL `Vb  1 e@2124 ]
+"1494 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1RSEL `Vb  1 e@2125 ]
+"1495 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MC2OUT `Vb  1 e@2126 ]
+"1496 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _MC1OUT `Vb  1 e@2127 ]
+[s S126 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S126 . C2SYNC T1GSS . C2RSEL C1RSEL MC2OUT MC1OUT ]
+[u S125 `S126 1 ]
+[n S125 . . ]
+"1508 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _CM2CON1bits `VS125  1 e@265 ]
+"1512 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEDATA `Vuc  1 e@268 ]
+"1513 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEDAT `Vuc  1 e@268 ]
+"1517 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEADR `Vuc  1 e@269 ]
+"1521 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEDATH `Vuc  1 e@270 ]
+[s S128 :6 `uc 1 ]
+[n S128 . . ]
+[u S127 `S128 1 ]
+[n S127 . . ]
+"1528 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEDATHbits `VS127  1 e@270 ]
+"1532 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEADRH `Vuc  1 e@271 ]
+[s S130 :5 `uc 1 ]
+[n S130 . . ]
+[u S129 `S130 1 ]
+[n S129 . . ]
+"1539 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEADRHbits `VS129  1 e@271 ]
+"1548 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SRCON `Vuc  1 e@389 ]
+"1550 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _FVREN `Vb  1 e@3112 ]
+"1551 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PULSR `Vb  1 e@3114 ]
+"1552 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _PULSS `Vb  1 e@3115 ]
+"1553 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C2REN `Vb  1 e@3116 ]
+"1554 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _C1SEN `Vb  1 e@3117 ]
+"1555 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SR0 `Vb  1 e@3118 ]
+"1556 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SR1 `Vb  1 e@3119 ]
+[s S132 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S132 . FVREN . PULSR PULSS C2REN C1SEN SR0 SR1 ]
+[u S131 `S132 1 ]
+[n S131 . . ]
+"1569 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SRCONbits `VS131  1 e@389 ]
+"1573 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BAUDCTL `Vuc  1 e@391 ]
+"1575 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ABDEN `Vb  1 e@3128 ]
+"1576 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WUE `Vb  1 e@3129 ]
+"1577 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BRG16 `Vb  1 e@3131 ]
+"1578 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _SCKP `Vb  1 e@3132 ]
+"1579 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RCIDL `Vb  1 e@3134 ]
+"1580 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ABDOVF `Vb  1 e@3135 ]
+[s S134 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S134 . ABDEN WUE . BRG16 SCKP . RCIDL ABDOVF ]
+[u S133 `S134 1 ]
+[n S133 . . ]
+"1593 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _BAUDCTLbits `VS133  1 e@391 ]
+"1597 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANSEL `Vuc  1 e@392 ]
+"1599 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS0 `Vb  1 e@3136 ]
+"1600 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS1 `Vb  1 e@3137 ]
+"1601 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS2 `Vb  1 e@3138 ]
+"1602 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS3 `Vb  1 e@3139 ]
+"1603 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS4 `Vb  1 e@3140 ]
+"1604 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS5 `Vb  1 e@3141 ]
+"1605 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS6 `Vb  1 e@3142 ]
+"1606 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS7 `Vb  1 e@3143 ]
+[s S136 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S136 . ANS0 ANS1 ANS2 ANS3 ANS4 ANS5 ANS6 ANS7 ]
+[u S135 `S136 1 ]
+[n S135 . . ]
+"1619 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANSELbits `VS135  1 e@392 ]
+"1623 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANSELH `Vuc  1 e@393 ]
+"1625 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS8 `Vb  1 e@3144 ]
+"1626 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS9 `Vb  1 e@3145 ]
+"1627 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS10 `Vb  1 e@3146 ]
+"1628 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS11 `Vb  1 e@3147 ]
+"1629 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS12 `Vb  1 e@3148 ]
+"1630 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANS13 `Vb  1 e@3149 ]
+[s S138 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S138 . ANS8 ANS9 ANS10 ANS11 ANS12 ANS13 ]
+[u S137 `S138 1 ]
+[n S137 . . ]
+"1641 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _ANSELHbits `VS137  1 e@393 ]
+"1645 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EECON1 `Vuc  1 e@396 ]
+"1647 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _RD `Vb  1 e@3168 ]
+"1648 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WR `Vb  1 e@3169 ]
+"1649 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WREN `Vb  1 e@3170 ]
+"1650 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _WRERR `Vb  1 e@3171 ]
+"1651 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EEPGD `Vb  1 e@3175 ]
+[s S140 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S140 . RD WR WREN WRERR . EEPGD ]
+[u S139 `S140 1 ]
+[n S139 . . ]
+"1662 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EECON1bits `VS139  1 e@396 ]
+"1666 C:\Program Files (x86)\HI-TECH Software\PICC\9.82\include\pic16f887.h
+[v _EECON2 `Vuc  1 e@397 ]
+"16 ../main.c
+[v _sec `uc  1 e ]
+"16 ../main.c
+[v _mins `uc  1 e ]
+"16 ../main.c
+[v _heure `uc  1 e ]
+"16 ../main.c
+[v _h `uc  1 e ]
+[c E1627 0 1 2 3 4 5 6 .. ]
+[n E1627 . LUN MAR MER JEU VEN SAM DIM  ]
+"18 ../main.c
+[v _j `E1627  1 e ]
+"19 ../main.c
+[v _jours `*Cuc  -> 7 `i e ]
+"20 ../main.c
+[v _Time `uc  -> 0 `x e ]
+"11 ../lcd.h
+[v _delay_ms `(v  0 ef1`ui ]
+"15 ../lcd.h
+[v _lcd_set_cursor `(v  0 ef2`uc`uc ]
+"18 ../lcd.h
+[v _lcd_write_string `(v  0 ef1`*Cuc ]
+"17 ../lcd.h
+[v _lcd_write_character `(v  0 ef1`uc ]
+"14 ../lcd.h
+[v _lcd_clear `(v  0 ef ]
+"20 ../lcd.h
+[v _lcd_shift_left `(v  0 ef ]
+[p mainexit ]
+"16 ../lcd.h
+[v _lcd_init `(v  0 ef ]
+"14 ../main.c
+[; 	psect config,class=CONFIG,delta=2 ;#
+[; 	dw 0xFFFA& 0xFFF7& 0xFFFF& 0xFFFF& 0xFFFF& 0xEFFF ;#
+"16
+[i _sec
+-> -> 0 `i `uc
+]
+[i _mins
+-> -> 0 `i `uc
+]
+[i _heure
+-> -> 0 `i `uc
+]
+[i _h
+-> -> 0 `i `uc
+]
+"18
+[i _j
+. `E1627 0
+]
+"19
+[i _jours
+:U ..
+:s 1C
+:s 2C
+:s 3C
+:s 4C
+:s 5C
+:s 6C
+:s 7C
+..
+]
+"20
+[i _Time
+:U ..
+-> 48 `c
+-> 48 `c
+-> 58 `c
+-> 48 `c
+-> 48 `c
+-> 58 `c
+-> 48 `c
+-> 48 `c
+-> 32 `c
+-> 65 `c
+-> 77 `c
+-> 0 `c
+..
+]
+"23
+[v _antirebond `(b  1 ef1`uc ]
+{
+[e :U _antirebond ]
+[v _c `uc  1 r1 ]
+[f ]
+"24
+[v _count `uc  1 a ]
+[e = _count -> -> 0 `i `uc ]
+[v _i `uc  1 a ]
+[e = _i -> -> 0 `i `uc ]
+"25
+{
+[e $ < -> _i `i -> 5 `i 142  ]
+[e $U 143  ]
+[e :U 142 ]
+{
+"26
+[e $U 146  ]
+{
+"27
+[e :U 147 ]
+[e $ ! == -> _RB1 `i -> 0 `i 148  ]
+[e ++ _count -> -> 1 `i `uc ]
+[e :U 148 ]
+"28
+[e $U 145  ]
+"29
+[e :U 149 ]
+[e $ ! == -> _RB2 `i -> 0 `i 150  ]
+[e ++ _count -> -> 1 `i `uc ]
+[e :U 150 ]
+"30
+[e $U 145  ]
+"31
+[e :U 151 ]
+[e $ ! == -> _RB3 `i -> 0 `i 152  ]
+[e ++ _count -> -> 1 `i `uc ]
+[e :U 152 ]
+"32
+[e $U 145  ]
+"33
+}
+[e $U 145  ]
+"26
+[e :U 146 ]
+[e [\ _c , $ -> -> 109 `ui `uc 147
+ , $ -> -> 104 `ui `uc 149
+ , $ -> -> 106 `ui `uc 151
+ 145 ]
+"33
+[e :U 145 ]
+"34
+[e ( _delay_ms (1 -> -> 10 `i `ui ]
+"35
+}
+"25
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 5 `i 142  ]
+[e :U 143 ]
+"35
+}
+"36
+[e $ ! > -> _count `i -> 2 `i 153  ]
+[e ) -> -> 1 `i `b ]
+[e $UE 141  ]
+[e $U 154  ]
+"37
+[e :U 153 ]
+[e ) -> -> 0 `i `b ]
+[e $UE 141  ]
+[e :U 154 ]
+"38
+[e :UE 141 ]
+}
+"41
+[v _lire_heure `(v  1 ef ]
+{
+[e :U _lire_heure ]
+[f ]
+"42
+[e ( _delay_ms (1 -> -> 1000 `i `ui ]
+"43
+[e =+ _sec -> -> 1 `i `uc ]
+"44
+[e =+ _mins -> / -> _sec `i -> 60 `i `uc ]
+"45
+[e $ ! ! _RB1 156  ]
+{
+"46
+[e $U 157  ]
+[e :U 158 ]
+[e :U 157 ]
+[e $ ( _antirebond (1 -> -> 109 `ui `uc 158  ]
+[e :U 159 ]
+"47
+[e ++ _mins -> -> 1 `i `uc ]
+"48
+}
+[e :U 156 ]
+"49
+[e =+ _h -> / -> _mins `i -> 60 `i `uc ]
+"50
+[e $ ! ! _RB2 160  ]
+{
+"51
+[e $U 161  ]
+[e :U 162 ]
+[e :U 161 ]
+[e $ ( _antirebond (1 -> -> 104 `ui `uc 162  ]
+[e :U 163 ]
+"52
+[e ++ _h -> -> 1 `i `uc ]
+"53
+}
+[e :U 160 ]
+"54
+[e = _j -> % + -> _j `i / -> _h `i -> 24 `i -> 7 `i `E1627 ]
+"55
+[e $ ! ! _RB3 164  ]
+{
+"56
+[e $U 165  ]
+[e :U 166 ]
+[e :U 165 ]
+[e $ ( _antirebond (1 -> -> 106 `ui `uc 166  ]
+[e :U 167 ]
+"57
+[e ++ _j -> -> 1 `i `E1627 ]
+"58
+}
+[e :U 164 ]
+"59
+[e =% _h -> 24 `uc ]
+"60
+[e =% _mins -> 60 `uc ]
+"61
+[e =% _sec -> 60 `uc ]
+"62
+[e = _heure _h ]
+"63
+[e = _heure -> ? < -> _heure `i -> 13 `i : -> _heure `i % -> =+ _heure -> -> 1 `i `uc `i -> 13 `i `uc ]
+"64
+[e = *U + &U _Time * -> -> -> 0 `i `ui `ux -> -> # *U &U _Time `ui `ux -> + -> / -> _heure `i -> 10 `i `ui -> 48 `ui `uc ]
+"65
+[e = *U + &U _Time * -> -> -> 1 `i `ui `ux -> -> # *U &U _Time `ui `ux -> + -> % -> _heure `i -> 10 `i `ui -> 48 `ui `uc ]
+"66
+[e = *U + &U _Time * -> -> -> 3 `i `ui `ux -> -> # *U &U _Time `ui `ux -> + -> / -> _mins `i -> 10 `i `ui -> 48 `ui `uc ]
+"67
+[e = *U + &U _Time * -> -> -> 4 `i `ui `ux -> -> # *U &U _Time `ui `ux -> + -> % -> _mins `i -> 10 `i `ui -> 48 `ui `uc ]
+"68
+[e = *U + &U _Time * -> -> -> 6 `i `ui `ux -> -> # *U &U _Time `ui `ux -> + -> / -> _sec `i -> 10 `i `ui -> 48 `ui `uc ]
+"69
+[e = *U + &U _Time * -> -> -> 7 `i `ui `ux -> -> # *U &U _Time `ui `ux -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc ]
+"70
+[e = *U + &U _Time * -> -> -> 9 `i `ui `ux -> -> # *U &U _Time `ui `ux -> ? < -> _h `i -> 12 `i : -> 65 `ui -> 80 `ui `uc ]
+"71
+[e :UE 155 ]
+}
+"75
+[v _affichage `(v  1 ef ]
+{
+[e :U _affichage ]
+[f ]
+"76
+[e $ ! ! _RB0 169  ]
+{
+"78
+[e $ ! || && && == -> _heure `i -> _mins `i == -> _mins `i -> _sec `i == -> _sec `i -> 0 `i && && == -> _heure `i -> 12 `i == -> _mins `i -> _sec `i == -> _sec `i -> 0 `i 170  ]
+{
+"79
+[e = _PORTA = _PORTC -> -> 63 `i `uc ]
+"80
+[e ( _delay_ms (1 -> -> 2000 `i `ui ]
+"81
+[e =+ _sec -> -> 2 `i `uc ]
+"82
+}
+[e :U 170 ]
+"83
+[e ( _lire_heure ..  ]
+"84
+[e = _PORTA -> ? || < -> _heure `i -> 6 `i == -> _heure `i -> 12 `i : << -> 1 `i % -> _heure `i -> 12 `i -> 0 `i `uc ]
+"85
+[e = _PORTC -> ? < -> _heure `i -> 6 `i : -> 0 `i << -> 1 `i - -> _heure `i -> 6 `i `uc ]
+"86
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"87
+[e ( _lcd_write_string (1 *U + &U _jours * -> _j `ux -> -> # *U &U _jours `ui `ux ]
+"88
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 5 `i `uc ]
+"89
+[e ( _lcd_write_string (1 -> &U _Time `*Cuc ]
+"90
+[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"91
+[e ( _lcd_write_string (1 :s 8C ]
+"92
+[e ( _lcd_write_character (1 -> + -> / -> _heure `i -> 10 `i `ui -> 48 `ui `uc ]
+"93
+[e ( _lcd_write_character (1 -> + -> % -> _heure `i -> 10 `i `ui -> 48 `ui `uc ]
+"94
+}
+[e $U 171  ]
+"95
+[e :U 169 ]
+{
+"96
+[e = _PORTA -> -> 0 `i `uc ]
+"97
+[e = _PORTC -> -> 0 `i `uc ]
+"98
+[e ( _lcd_clear ..  ]
+"99
+[e ( _delay_ms (1 -> -> 5 `i `ui ]
+"100
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"101
+[e ( _lcd_write_string (1 :s 9C ]
+"102
+{
+[v _a `i  1 a ]
+[e = _a -> 0 `i ]
+[e $ < _a -> 32 `i 172  ]
+[e $U 173  ]
+[e :U 172 ]
+{
+"103
+[e ( _lcd_shift_left ..  ]
+"104
+[e ( _delay_ms (1 -> -> 1000 `i `ui ]
+}
+"102
+[e ++ _a -> 1 `i ]
+[e $ < _a -> 32 `i 172  ]
+[e :U 173 ]
+"104
+}
+"105
+[e ( _lcd_clear ..  ]
+"106
+}
+[e :U 171 ]
+"107
+[e :UE 168 ]
+}
+"110
+[v _main `(v  1 ef ]
+{
+[e :U _main ]
+[f ]
+"111
+[e = _ANSEL -> -> 0 `i `uc ]
+"112
+[e = _ANSELH -> -> 0 `i `uc ]
+"113
+[e = _TRISA = _TRISC = _TRISD -> -> 192 `i `uc ]
+"114
+[e = _nRBPU -> -> 0 `i `b ]
+"115
+[e = _WPUB -> -> 15 `i `uc ]
+"116
+[e = _PORTA = _PORTC -> -> 0 `i `uc ]
+"117
+[e ( _lcd_init ..  ]
+"118
+[e :U 177 ]
+{
+"119
+[e ( _affichage ..  ]
+"120
+}
+[e :U 176 ]
+"118
+[e $U 177  ]
+[e :U 178 ]
+"121
+[e :UE 175 ]
+}
+[a 9C 32 32 32 32 32 32 32 32 32 32 32 67 111 117 114 115 32 100 101 115 32 76 105 111 110 115 0 ]
+[a 4C 74 69 85 0 ]
+[a 3C 77 69 82 0 ]
+[a 2C 77 65 82 0 ]
+[a 1C 76 85 78 0 ]
+[a 5C 86 69 78 0 ]
+[a 7C 68 73 77 0 ]
+[a 6C 83 65 77 0 ]
+[a 8C 76 105 111 110 32 0 ]

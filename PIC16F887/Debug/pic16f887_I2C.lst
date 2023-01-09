@@ -1,0 +1,39 @@
+     1: #include "pic16f887_I2C.h"
+     2: #include <pic.h>
+     3: 
+     4: void I2C_init(int i2c_clock){
+     5:     SSPCON = 0x28;
+     6:     SSPADD = XTAL_FREQ / (4 * i2c_clock) -1;
+     7:     SSPSTAT = 0;    
+     8: }
+     9: 
+    10: void I2C_start(){
+    11:     while((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));    
+    12:     SEN = 1;
+    13: }
+    14: 
+    15: void I2C_repeated_start(){
+    16:     while((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+    17:     RSEN = 1;
+    18: }
+    19: 
+    20: void I2C_write(unsigned char data){
+    21:     while((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+    22:     SSPBUF = data;
+    23: }
+    24: 
+    25: unsigned char I2C_read(char ack){
+    26:     while((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+    27:     RCEN = 1;
+    28:     while((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+    29:     unsigned char heure = SSPBUF; 
+    30:     while((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+    31:     ACKDT = !ack; 
+    32:     ACKEN = 1;
+    33:     return heure;
+    34: }
+    35: 
+    36: void I2C_stop(){
+    37:     while((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+    38:     PEN = 1;
+    39: }

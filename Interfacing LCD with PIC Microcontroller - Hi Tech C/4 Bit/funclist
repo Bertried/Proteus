@@ -1,0 +1,11 @@
+_Lcd4_Port: CODE, 1545 0 35
+_Lcd4_Write_Char: CODE, 1619 0 65
+_Lcd4_Cmd: CODE, 1519 0 26
+_main: CODE, 1865 0 183
+_Lcd4_Shift_Right: CODE, 1493 0 13
+_Lcd4_Clear: CODE, 1480 0 13
+_Lcd4_Write_String: CODE, 1580 0 39
+_Lcd4_Set_Cursor: CODE, 1684 0 87
+_Lcd4_Shift_Left: CODE, 1506 0 13
+_Lcd4_Init: CODE, 1771 0 94
+Total: 568
