@@ -1,0 +1,10 @@
+*.pdsbak
+*.workspace
+*.obj
+*.DBK
+*.sdb
+*.dep
+*.p1
+*.sts
+*.DO
+*.EDF
