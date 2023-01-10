@@ -9,7 +9,7 @@
 *.DO
 *.EDF
 .vscode
-.log
+*.log
 
 #--------Debug files--------
 *.lst
