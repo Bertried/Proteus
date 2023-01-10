@@ -1,0 +1,22 @@
+*.pdsbak
+*.workspace
+*.obj
+*.DBK
+*.sdb
+*.dep
+*.p1
+*.sts
+*.DO
+*.EDF
+.vscode
+.log
+
+#--------Debug files--------
+*.lst
+*.hxl
+*.sym
+*.rlf
+*.pre
+*.cof
+funclist
+Makefile

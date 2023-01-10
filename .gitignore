@@ -8,4 +8,15 @@
 *.sts
 *.DO
 *.EDF
-*.vscode
+.vscode
+.log
+
+#--------Debug files--------
+*.lst
+*.hxl
+*.sym
+*.rlf
+*.pre
+*.cof
+funclist
+Makefile
